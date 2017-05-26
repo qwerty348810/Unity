@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     public CubeClick cubclick_1;
-    public CubeClick_2 cubclick_2;
+    public CubeClick cubclick_2;
     public float scoreGlobal;
     public Text MyText;
 
@@ -16,7 +16,7 @@ public class Score : MonoBehaviour
     
 
 	void Update () {
-        scoreGlobal = cubclick_1.score_1 + cubclick_2.score_2;
+        scoreGlobal = cubclick_1.score_1 + cubclick_2.score_1;
     }
     void OnGUI()
     {       

@@ -19,7 +19,7 @@ public class Score : MonoBehaviour
         scoreGlobal = cubclick_1.score_1 + cubclick_2.score_2;
     }
     void OnGUI()
-    {
-        MyText.text = scoreGlobal.ToString();
+    {       
+        MyText.text = "Score: " + scoreGlobal.ToString();
     }
 }

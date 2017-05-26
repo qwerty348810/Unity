@@ -1,22 +1,23 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CubeClick : MonoBehaviour
+public class CubeClick_2 : MonoBehaviour
 {
-    public GameObject MySphere;    
-    public float score_1;
+    public GameObject MySphere;
+    public float score_2;
     bool click = true;
     float timerRemaining = 5;
     bool count = false;
-    
+
 
     void Start()
     {
-        
+
     }
 
-    
+
     void Update()
     {
         if (count == true)
@@ -32,7 +33,7 @@ public class CubeClick : MonoBehaviour
             Debug.Log("Spher Invis");
             MySphere.SetActive(false);
             click = false;
-        }       
+        }
     }
     void OnGUI()
     {
@@ -48,7 +49,7 @@ public class CubeClick : MonoBehaviour
             Debug.Log("Spher Visibl");
             MySphere.SetActive(true);
             click = true;
-            score_1++;           
+            score_2++;
         }
     }
-   }
+}

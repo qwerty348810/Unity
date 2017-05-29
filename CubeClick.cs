@@ -7,7 +7,7 @@ public class CubeClick : MonoBehaviour
     public GameObject MySphere;    
     public float score_1;
     bool click = true;
-    float timerRemaining = 5;
+    float timerRemaining = 2;
     bool count = false;
     
 
@@ -44,7 +44,7 @@ public class CubeClick : MonoBehaviour
         {
             GUI.Label(new Rect(100, 100, 100, 100), "Time s UP");
             count = false;
-            timerRemaining = 5;
+            timerRemaining = 2;
             Debug.Log("Spher Visibl");
             MySphere.SetActive(true);
             click = true;

@@ -7,6 +7,10 @@ public class Buy_Cube : MonoBehaviour
     public Score score;
     private CubeClick cubclick_1;
     private CubeClick cubclick_2;
+    private CubeClick cubclick_3;
+    private CubeClick cubclick_4;
+    private CubeClick cubclick_5;
+    private CubeClick cubclick_6;
     public NotActive cube_2;
     public NotActive textAlert;
     public NotActive textAlert_2;
@@ -44,7 +48,7 @@ public class Buy_Cube : MonoBehaviour
             {
                 cube_2.active.SetActive(true);
                 deletScore -= 2;
-                provCube = true;
+                provCube = true;               
             }           
         }
         else
